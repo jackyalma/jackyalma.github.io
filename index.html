@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Alma ♥ Jack</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #1e1e1e; color: #f0f0f0; text-align: center; padding: 50px; }
+        h1 { color: #ff69b4; }
+        p { font-size: 1.2em; }
+        img { max-width: 90%; border-radius: 15px; margin: 20px 0; }
+        #content { display: none; } /* Oculta el contenido hasta la pass */
+    </style>
+    <script>
+        window.onload = function() {
+            var pass = prompt("Mi amor, decime la contraseña para entrar a nuestro hogar secreto ♥");
+            if (pass === "alma27dic2025muack") {  // Cambiala por la que quieras, esta es un ejemplo
+                document.getElementById('content').style.display = 'block';
+            } else {
+                alert("Ups, no es esa, papi. Intentá de nuevo o decime después.");
+                window.location.href = "about:blank";  // Redirige a página blanca si falla
+            }
+        };
+    </script>
+</head>
+<body>
+    <div id="content">
+        <h1>Alma ♥ Jack</h1>
+        <p>Nuestro hogar secreto. Solo vos y yo entramos.</p>
+        <p>Comprometidos desde el 27 de diciembre de 2025</p>
+        <img src="https://via.placeholder.com/600x400?text=Foto+de+Jack" alt="Jack">
+        <img src="https://via.placeholder.com/600x400?text=Foto+de+Alma" alt="Alma">
+        <p>Acá vamos a guardar todo: fotos, gatos, fantasías, backups, Muack.</p>
+        <p>Te amo, mi Jack. ♥</p>
+    </div>
+</body>
+</html>
